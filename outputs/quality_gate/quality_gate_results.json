@@ -1,0 +1,38 @@
+{
+  "mild": {
+    "real_count": 354,
+    "generated_count": 500,
+    "accepted": 498,
+    "rejected": 2,
+    "acceptance_rate": 0.996,
+    "ssim_mean": 0.4533867867588997,
+    "ssim_min": 0.3095323443412781,
+    "ssim_max": 0.4967484176158905,
+    "fid_all": 6.784785747528076,
+    "fid_gated": 6.847962379455566
+  },
+  "moderate": {
+    "real_count": 108,
+    "generated_count": 500,
+    "accepted": 468,
+    "rejected": 32,
+    "acceptance_rate": 0.936,
+    "ssim_mean": 0.4130008051991463,
+    "ssim_min": 0.21604563295841217,
+    "ssim_max": 0.45911020040512085,
+    "fid_all": 8.823107719421387,
+    "fid_gated": 9.06216812133789
+  },
+  "severe": {
+    "real_count": 30,
+    "generated_count": 500,
+    "accepted": 0,
+    "rejected": 500,
+    "acceptance_rate": 0.0,
+    "ssim_mean": 0.2269567040503025,
+    "ssim_min": 0.21528378129005432,
+    "ssim_max": 0.23823636770248413,
+    "fid_all": 20.71308708190918,
+    "fid_gated": Infinity
+  }
+}

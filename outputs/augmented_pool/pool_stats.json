@@ -1,0 +1,25 @@
+{
+  "mild": {
+    "real": 354,
+    "synthetic": 498,
+    "total": 852,
+    "augmentation_ratio": 1.41
+  },
+  "moderate": {
+    "real": 108,
+    "synthetic": 468,
+    "total": 576,
+    "augmentation_ratio": 4.33
+  },
+  "severe": {
+    "real": 30,
+    "synthetic": 0,
+    "total": 30,
+    "augmentation_ratio": 0.0
+  },
+  "_totals": {
+    "real": 492,
+    "synthetic": 966,
+    "total": 1458
+  }
+}
